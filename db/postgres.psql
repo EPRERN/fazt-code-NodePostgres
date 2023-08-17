@@ -10,3 +10,5 @@ INSERT INTO users(name, email) VALUES
     ('Joe','joe@biden.com'),
     ('ryan','ryan@faztweb.com');
     
+
+    SELECT * FROM users;
