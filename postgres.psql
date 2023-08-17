@@ -1,0 +1,27 @@
+create DATABASE library;
+
+create TABLE books (
+    section int,
+    title text,
+    author text
+);
+
+INSERT INTO books VALUES 
+(1, 'FOUNDATION' , 'Isaac Asimov'),
+(2, 'Cronica de Una muerte anunciada', 'Gabriel Garcia Marquez'),
+(3, 'Sherlock Holmes', 'Arthur Conan Doyle');
+
+
+select * from books;
+
+create TABLE users (
+    username text, 
+    password text
+);
+
+INSERT INTO users VALUES 
+    ('joe', 'joe123'),
+    ('ryan', 'ryan123'),
+    ('cameron', 'cameron123');
+
+select * from users;
